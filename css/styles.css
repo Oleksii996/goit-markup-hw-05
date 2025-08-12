@@ -467,4 +467,29 @@ img {
 .icons-socialmedia-footer {
   fill: #f4f4fd;
 }
+
+.social-media-footer {
+  margin-right: 80px;
+}
+
+.email-form {
+  display: flex;
+}
+
+.form-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.subscribe-button {
+  width: 165px;
+  height: 40px;
+  margin-left: 24px ;
+  border-radius: 4px;
+  background-color:#4D5AE5;
+
+  color: #FFFFFF;
+}
+
 /* #endregion Footer */
