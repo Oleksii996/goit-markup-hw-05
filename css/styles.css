@@ -480,16 +480,47 @@ img {
   width: 264px;
   height: 40px;
   border-radius: 4px;
+  padding-left: 16px;
 }
 
 .subscribe-button {
   width: 165px;
   height: 40px;
-  margin-left: 24px ;
+  margin-left: 24px;
   border-radius: 4px;
-  background-color:#4D5AE5;
+  background-color: #4d5ae5;
 
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.icons-subscribe-footer {
+  fill: #f4f4fd;
 }
 
 /* #endregion Footer */
+
+/* #region Modal-Fenster */
+.modal-overlay {
+  background-color: #31d0aa;
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 50%;
+}
+
+.modal {
+  width: 408px;
+  height: 584px;
+  background-color: #404bbf;
+
+
+}
+/* #endregion Modal-Fenster */
