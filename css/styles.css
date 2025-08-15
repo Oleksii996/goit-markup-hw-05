@@ -732,8 +732,7 @@ img {
   fill: #f4f4fd;
 }
 .send-button {
-  position: relative;
-  left: 25%;
+  transform: translateX(50%);
   display: block;
   min-width: 169px;
   height: 56px;
