@@ -728,7 +728,7 @@ img {
   background-color: #404bbf;
   border: none;
 }
-.visually-hidden:checked + .modal-checkbox-label .modal-form-icon-check {
+.visually-hidden:checked + .modal-checkbox-label .checkbox-span .modal-form-icon-check {
   fill: #f4f4fd;
 }
 .send-button {
