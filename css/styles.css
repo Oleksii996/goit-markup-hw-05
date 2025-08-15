@@ -720,16 +720,18 @@ img {
   fill: transparent;
 }
 
-.modal-form-icon-check {
+.modal-form-icon-check{
   fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
-.visually-hidden:checked + .checkbox-span {
-  background-color: var(--checkbox-bg, #404bbf);
+.visually-hidden:checked + .modal-checkbox-label .checkbox-span {
+  background-color: #404bbf;
   border: none;
+}
+.visually-hidden:checked + .modal-checkbox-label .modal-form-icon-check {
   fill: #f4f4fd;
 }
-
 .send-button {
   display: block;
   min-width: 169px;
