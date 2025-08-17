@@ -541,6 +541,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  opacity: 1;
+  visibility: visible;
+  pointer-events: none;
+}
+
+.modal-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal-fenster {
@@ -691,6 +701,10 @@ img {
   resize: none;
 }
 
+.textarea-modal::placeholder {
+  color: #2e2f4266;
+}
+
 .textarea-modal:focus {
   border-color: #4d5ae5;
 }
@@ -718,17 +732,19 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+
+  margin-right: 8px;
 }
 
 .modal-form-icon-check {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.visually-hidden:checked + .modal-checkbox-label .checkbox-span {
+.visually-hidden:checked + .modal-checkbox-label {
   background-color: #404bbf;
   border: none;
 }
-.visually-hidden:checked + .modal-checkbox-label .checkbox-span {
+.visually-hidden:checked + .modal-checkbox-label{
   fill: #f4f4fd;
 }
 .send-button {
