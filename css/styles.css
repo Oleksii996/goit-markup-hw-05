@@ -542,8 +542,8 @@ img {
   justify-content: center;
   align-items: center;
 
-  opacity: 1;
-  visibility: visible;
+  opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -740,13 +740,12 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.visually-hidden:checked + .modal-checkbox-label {
+.visually-hidden:checked + .modal-checkbox-label .checkbox-span {
   background-color: #404bbf;
   border: none;
-}
-.visually-hidden:checked + .modal-checkbox-label{
   fill: #f4f4fd;
 }
+
 .send-button {
   transform: translateX(50%);
   display: block;
